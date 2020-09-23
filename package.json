@@ -19,7 +19,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "npm install && npm test",
+    "build": "npm ci && npm test",
     "transpile": "run-s transpile-main transpile-test",
     "clean": "rimraf lib/main",
     "copy-src": "mkdirp lib/main/src && cp -r src/main/* lib/main/src",
