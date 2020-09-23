@@ -11,7 +11,7 @@ Your application must install its desired version of [Google PubSub](https://www
 > NOTE: requires Docker & a Unix-y shell (`/usr/bin/env sh`) to be available.
 > This is not designed to run on Windows; PRs/MRs welcome.
 
-See [src/test/integration/redis/redis.spec.js] for usage, but it's basically
+See [src/test/integration/google-pubsub/google-pubsub.spec.js] for usage, but it's basically
 ```javascript
 const googlePubSubConnect = require('google-pubsub-test-support')
 
