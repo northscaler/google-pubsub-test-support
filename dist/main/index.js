@@ -1,0 +1,4 @@
+'use strict';
+
+module.exports = require('./google-pubsub');
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9tYWluL2luZGV4LmpzIl0sIm5hbWVzIjpbIm1vZHVsZSIsImV4cG9ydHMiLCJyZXF1aXJlIl0sIm1hcHBpbmdzIjoiQUFBQTs7QUFFQUEsTUFBTSxDQUFDQyxPQUFQLEdBQWlCQyxPQUFPLENBQUMsaUJBQUQsQ0FBeEIiLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCdcblxubW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKCcuL2dvb2dsZS1wdWJzdWInKVxuIl19

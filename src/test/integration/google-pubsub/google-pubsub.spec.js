@@ -18,7 +18,7 @@ describe('integration tests of google-pubsub', function () {
           console.log('skipping because in CI pipeline')
           return resolve()
         }
-        // this.timeout(10000)
+        this.timeout(60000)
 
         let subscription
         let topic
