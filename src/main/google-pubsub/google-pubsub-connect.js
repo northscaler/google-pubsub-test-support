@@ -30,7 +30,7 @@ async function googlePubsubConnect ({
   return projects.reduce((accum, projectId) => {
     accum[projectId] = new PubSub({ projectId })
     return accum
-  }, {})
+  }, {}) || new PubSub()
 }
 
 googlePubsubConnect.defaultPort = defaultPort
